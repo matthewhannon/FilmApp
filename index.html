@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Film</title>
 </head>
 <body>
-    <h1>Movie Search</h1>
-    <p>Title</p>
-    <input class="title-search">
-    <p>Year</p>
-    <input class="year-search">
-    <button>
-        Submit
-    </button>
+    <header>
+        <h1>Film Search</h1>
+    </header>
 
-    <div class="details">
-        <h2 class="title">It is titled </h2>
-        <h3 class="year">This movie came out in </h3>
-        <p class="rating">It is rated </p>
-        <img src="">
+    <!-- Title Search -->
+    <div class="search">
+        <input class="title-search" type="text" placeholder="Title">
+        <button>Enter</button>
     </div>
+
+    <!-- Title of movie searched -->
+    <h1 class="search-display" style="visibility: hidden;"></h1>
+
+    <!-- Placeholder Image -->
+    <img class="poster" src="https:/via.placeholder.com/250">
+
+    <div class="director">
+        <h3></h2>
+        <h2></h3>
+    </div>
+
+    <div class="actors">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
     <script src="scripts/config.js"></script>
     <script src="scripts/movieData.js"></script>
     <script src="scripts/app.js"></script>

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+
+.search {
+    padding: 10px;
+}
+.search-display {
+    padding: 10px;
+}
+
+.poster {
+    padding: 10px;
+}
+
+.director {
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+
+.actors {
+    background-color: rgb(207, 225, 233);
+    padding: 10px;
+}
+
+.actors ul {
+    margin: 0;
+    padding: 0;
+}
+
+.actor-img {
+    width: 100px;
+}
